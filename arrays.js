@@ -32,7 +32,7 @@ function accessElementInArray(array, ind) {
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift()
-  return array  
+  return array
 }
 
 
@@ -49,11 +49,11 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 
 
 function removeElementFromEndOfArray(array) {
-  array.slice(0, array.length -1)  
+  array.slice(0, array.length -1)
 }
 
 
-/*  We can use slice, combined with the spread operator, 
+/*  We can use slice, combined with the spread operator,
 to make removing from the middle of an array much easier.
 
 var items = [1,2,3,4,5]
@@ -62,4 +62,3 @@ var items = [1,2,3,4,5]
 //[1,2,4,5]
 
 */
-
